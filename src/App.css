@@ -1,0 +1,15 @@
+:root {
+  --heading-font-family: "Libre Caslon Text", serif;
+  --default-font-family: "Libre Franklin", sans-serif;
+}
+
+.App-logo {
+  max-width: 81px;
+  display: block;
+  margin: 0 auto;
+}
+
+.App-footer {
+  text-align: center;
+  margin: 30px 0;
+}
