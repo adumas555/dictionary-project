@@ -1,0 +1,17 @@
+.Meaning h4 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.Meaning .example {
+  color: #3e4b40;
+  font-style: italic;
+  margin-top: 10px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.Meaning .definition {
+  font-family: "Libre Franklin", sans-serif;
+}

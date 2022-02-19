@@ -1,6 +1,7 @@
 import "./App.css";
 import logo from "./logo.png";
 import Dictionary from "./Dictionary";
+import Butler from "./Butler";
 
 export default function App() {
   return (
@@ -10,6 +11,9 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
           <div className="App-purpose text-center">Dictionary</div>
         </header>
+        <div className="container">
+          <Butler />
+        </div>
         <main>
           <Dictionary defaultKeyword="sunrise" />
         </main>

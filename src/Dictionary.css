@@ -1,5 +1,6 @@
 form {
   text-align: center;
+  margin-top: 30px;
 }
 
 h1 {
@@ -9,4 +10,21 @@ h1 {
 
 .hint {
   font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
+}
+
+.Dictionary section {
+  background: #e8f3db;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  margin: 20px 0;
+}
+
+.Dictionary input {
+  width: 65%;
+  border-radius: 6px;
+  padding: 6px 15px;
+  color: #333;
+  border: 1px solid #c9deb0;
 }

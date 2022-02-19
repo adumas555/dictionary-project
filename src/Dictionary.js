@@ -5,7 +5,7 @@ import Results from "./Results";
 import Photos from "./Photos";
 
 export default function Dictionary(props) {
-  let [keyword, setKeyword] = useState("");
+  let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
@@ -19,8 +19,6 @@ export default function Dictionary(props) {
   }
 
   function search() {
-    alert(`Searching for ${keyword} definition`);
-
     //documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
@@ -50,7 +48,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section className="banner">
-          <h1 className="text-center mt-4 mb-5">
+          <h1 className="text-center mt-4 mb-4">
             What word may I assist you with?
           </h1>
           <form onSubmit={handleSubmit}>
@@ -61,7 +59,7 @@ export default function Dictionary(props) {
             />
           </form>
           <div className="hint text-center mt-2">
-            suggested words: tree, dusk, archery, gin...
+            suggested words: tree, dusk, archery...
           </div>
         </section>
         <Results results={results} />
