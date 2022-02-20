@@ -19,7 +19,11 @@ a {
 
 .App-footer {
   text-align: center;
-  margin: 30px 0;
+  margin: 30px;
+}
+
+.App-footer a {
+  margin-left: 4px;
 }
 
 .App-purpose {
