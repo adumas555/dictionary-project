@@ -21,7 +21,7 @@ export default function Phonetic(props) {
   } else {
     return (
       <div className="Phonetic text-center">
-        <a href="#">Listen</a> <span className="Phonetic-false">🔇</span>{" "}
+        <button>Listen</button> <span className="Phonetic-false">🔇</span>{" "}
         {props.phonetic.text}
       </div>
     );

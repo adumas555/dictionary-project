@@ -20,6 +20,20 @@
   color: white;
 }
 
+.Phonetic button {
+  font-family: "Libre Franklin", sans-serif;
+  color: #53752c;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 13px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+  background: #e8f3db;
+}
+
 .Phonetic .text {
   opacity: 0.6;
   font-weight: bold;
